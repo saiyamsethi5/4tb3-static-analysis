@@ -8,7 +8,7 @@ class output_message:
         loop_lower_range = (loop_code.split("(")[1].split(",")[0])
         loop_code_upper_range = (loop_code.split(",")[1].split(")")[0])
         second_loop_code_upper_range = (second_loop_code.split(",")[1].split(")")[0])
-        print ("\n\tConsider the Following:")
+        print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
         print ("\tfor i in range (" + loop_lower_range + "," + loop_code_upper_range + " *" + second_loop_code_upper_range + ")")
         print ("\n")
 
@@ -19,7 +19,7 @@ class output_message:
         print ("\t\t" + "Case A")
         print ("\t" + else_code)
         print ("\t\t" + "Case B")
-        print("\n\tConsider the Following:")
+        print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
         print ("\tCase B")
         print ("\t" + if_code)
         print ("\t\t" + "Undo Case B")
@@ -31,7 +31,7 @@ class output_message:
         print ("\tMultiplication can be optimized: ")
         print ("\t" + loop_code)
         print ("\t" + mult_case)
-        print("\n\tConsider the Following:")
+        print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
         loop_lower_range = (loop_code.split("(")[1].split(",")[0])
         for_loop_mult = loop_code.split(",")[1].split(")")[0]
         main_code_mult = mult_case.split("*")[1].split(")")[0]
@@ -47,7 +47,7 @@ class output_message:
 
         loop_lower_range = (loop_code.split("(")[1].split(",")[0])
         loop_code_upper_range = (loop_code.split(",")[1].split(")")[0])
-        print("\n\tConsider the Following:")
+        print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
         print ("\ti = " + str(int(loop_code_upper_range)-1))
         print("\tdo{")
         print("\t\tLOOP CODE")
