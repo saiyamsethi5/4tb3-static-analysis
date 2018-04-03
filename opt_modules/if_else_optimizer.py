@@ -1,5 +1,6 @@
 import collections
 from organized_dict import organized_dict
+from output_message import output_message
 
 class if_else_optimizer:
     code_dict = organized_dict(collections.OrderedDict())  #dictionary of line : code
@@ -13,4 +14,4 @@ class if_else_optimizer:
                 #Found an if statement - now check if the next input stream is an else
                 next_tuple = (self.code_dict.next_key(self.code_dict, keys))
                 if ('else' in next_tuple[1]):
-                    print ("If Else can be optimized on line: " + str(keys) + " - " + str(self.code_dict[keys]))
+                    output_message.if_else_msg(int(str(keys)), str(self.code_dict[keys]))

@@ -1,7 +1,7 @@
 x = 5
 
 for i in range (0, 10):
-    for i in range (10, 100):
+    for j in range (0, 100):
         print ("foo")
     print ("Hello")
 
