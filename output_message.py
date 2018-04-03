@@ -1,6 +1,6 @@
 class output_message:
     def nested_for_msg (line_num, loop_code, second_loop_code):
-        print("Line " + str(line_num) + ": ")
+        print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print("\tNested for loop can be optimized: ")
         print ("\t" + loop_code)
         print ("\t\t" + second_loop_code)
@@ -13,7 +13,7 @@ class output_message:
         print ("\n")
 
     def if_else_msg (line_num, if_code, else_code):
-        print("Line " + str(line_num) + ": ")
+        print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print ("\tIf-else can be optimized: ")
         print ("\t" + if_code)
         print ("\t\t" + "Case A")
@@ -27,8 +27,8 @@ class output_message:
         print ("\n")
 
     def avoid_mult_msg (line_num, loop_code, mult_case):
-        print("Line " + str(line_num) + ": ")
-        print ("\tMultiplication can be optimized in for loop: ")
+        print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
+        print ("\tMultiplication can be optimized: ")
         print ("\t" + loop_code)
         print ("\t" + mult_case)
         print("\n\tConsider the Following:")
@@ -40,8 +40,8 @@ class output_message:
         print ("\n")
 
     def loop_overhead_msg (line_num, loop_code):
-        print("Line " + str(line_num) + ": ")
-        print ("\tFor loop can be optimized using negative while: ")
+        print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
+        print ("\tLoop overhead can be optimized: ")
         print ("\t" + loop_code)
         print("\t\tLOOP CODE")
 
