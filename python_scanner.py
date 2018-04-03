@@ -8,7 +8,7 @@ from filter_input import filter_input
 from opt_modules.if_else_optimizer import if_else_optimizer
 from opt_modules.nested_for_optimizer import nested_for_optimizer
 from opt_modules.avoid_multiply_optimizer import avoid_multiply_optimizer
-
+from opt_modules.loop_overhead_optimizer import loop_overhead_optimizer
 
 #function: scanner
 #input: py_input - a list of python grammar retreived from input_code.py
@@ -29,7 +29,8 @@ def scanner (py_input):
     opt3 = avoid_multiply_optimizer(filtered_code)
     opt3.search_for_optimization()
 
-
+    opt4 = loop_overhead_optimizer(filtered_code)
+    opt4.search_for_optimization()
 
 
 #function: main
