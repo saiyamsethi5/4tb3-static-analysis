@@ -12,14 +12,23 @@ class output_message:
         print ("\tfor i in range (" + loop_lower_range + "," + loop_code_upper_range + " *" + second_loop_code_upper_range + ")")
         print ("\n")
 
-    def if_else_msg (line_num, loop_code):
+    def if_else_msg (line_num, if_code, else_code):
         print("Line " + str(line_num) + ": ")
-        print ("\tIf else can be optimized - " + loop_code)
+        print ("\tIf else can be optimized: ")
+        print ("\t" + if_code)
+        print ("\t\t" + "Case A")
+        print ("\t" + else_code)
+        print ("\t\t" + "Case B")
+        print("\n\tConsider the Following:")
+        print ("\tCase B")
+        print ("\t" + if_code)
+        print ("\t\t" + "Undo Case B")
+        print ("\t\t" + "Case A")
         print ("\n")
 
     def avoid_mult_msg (line_num, loop_code):
         print("Line " + str(line_num) + ": ")
-        print ("\tMultiplication can be optimized in for loop - " + loop_code)
+        print ("\tMultiplication can bes optimized in for loop - " + loop_code)
         print ("\n")
 
     def loop_overhead_msg (line_num, loop_code):

@@ -14,4 +14,4 @@ class if_else_optimizer:
                 #Found an if statement - now check if the next input stream is an else
                 next_tuple = (self.code_dict.next_key(self.code_dict, keys))
                 if ('else' in next_tuple[1]):
-                    output_message.if_else_msg(int(str(keys)), str(self.code_dict[keys]))
+                    output_message.if_else_msg(int(str(keys)), str(self.code_dict[keys]), next_tuple[1])
