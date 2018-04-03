@@ -2,7 +2,7 @@ import collections
 from organized_dict import organized_dict
 
 # Dictionary of supported symbols and their appropriate outputs
-optimized_symbs = ['if', 'else', 'for']
+optimized_symbs = ['if', 'else', 'for', '*']
 
 class filter_input:
     code_dict = organized_dict(collections.OrderedDict())  # dictionary of line : code

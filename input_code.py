@@ -6,7 +6,7 @@ for i in range (0, 10):
     print ("Hello")
 
 for i in range (0, 10):
-    print ("test")
+    test = i*10
 
 if (x == 5):
     y = True
