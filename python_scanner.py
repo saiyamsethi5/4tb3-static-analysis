@@ -6,6 +6,7 @@ import collections
 from organized_dict import organized_dict
 from filter_input import filter_input
 from opt_modules.if_else_optimizer import if_else_optimizer
+from opt_modules.nested_for_optimizer import nested_for_optimizer
 
 
 #function: scanner
@@ -18,8 +19,13 @@ def scanner (py_input):
     filtered_code = filter_code.filter_keywords()   #filters the code for specified keywords
 
     #print (filtered_code)
-    opt1 = if_else_optimizer(filtered_code)
+    opt1 = nested_for_optimizer(filtered_code)
     opt1.search_for_optimization()
+
+    opt2 = if_else_optimizer(filtered_code)
+    opt2.search_for_optimization()
+
+
 
 
 #function: main
