@@ -11,8 +11,6 @@ for i in range (0, 10):
 if (x == 5):
     y = True
 
-
-
 if (x == 6):
     y = True
 else:

@@ -1,3 +1,7 @@
+#output_message.py
+#Final Project - Group Number: 10
+#Requirements: class to define the output message for individual optimization
+
 class output_message:
     def nested_for_msg (line_num, loop_code, second_loop_code):
         print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
