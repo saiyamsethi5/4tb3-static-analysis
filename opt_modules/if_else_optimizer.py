@@ -18,6 +18,9 @@ class if_else_optimizer:
             if ('if' in self.code_dict [keys]):
                 #Found an if statement - now check if the next input stream is an else
                 next_tuple = (self.code_dict.next_key(self.code_dict, keys))
-                if ('else' in next_tuple[1]):
-                    output_message.if_else_msg(int(str(keys)), str(self.code_dict[keys]), next_tuple[1])
-                    break   #Found else - break out to avoid reading another if/else that is not nested
+                try:
+                    if ('else' in next_tuple[1]):
+                        output_message.if_else_msg(int(str(keys)), str(self.code_dict[keys]), next_tuple[1])
+                        continue   #Found else - break out to avoid reading another if/else that is not nested
+                except IndexError:
+                    print ("")

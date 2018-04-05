@@ -1,19 +1,37 @@
-x = 5
+#input_code.py
+#test input case for optimizer
 
-for i in range (0, 10):
-    for j in range (0, 100):
-        print ("foo")
-    print ("Hello")
+#Test Case of Nested For Loop
+def area_increment_calc (height, width):
+    for i in range (0, height):
+        for j in range (0, width):
+            print (i + j)
 
-for i in range (0, 10):
-    print (i*10)
+# Test Case for If Else Optimization
+def find_item(item_to_find, input_list):
+    if (str(item_to_find) in input_list):
+        index_item = input_list.index(item_to_find)
+    else:
+        index_item = -1
 
-if (x == 5):
-    y = True
+    return index_item
 
-if (x == 6):
-    y = True
-else:
-    y = False
+ # Test Case for Avoid Multiple Finite Differences Optimization
+def random_numbers ():
+    for i in range(0, 10):
+        print(i * 100)
 
+#Test Case for Loop Overhead Optimization
+def binarySearch(x,low,mid,high,list):
+    if (x == list[mid]):
+        return mid
+    elif (x > list[mid]):
+        low = mid+1
+    elif (x < list[mid]):
+        high = mid-1
 
+    for i in range(low, high):
+        if x == list[i]:
+            return i
+
+    return -1

@@ -20,4 +20,4 @@ class avoid_multiply_optimizer:
                 next_tuple = (self.code_dict.next_key(self.code_dict, keys))
                 if ('*' in next_tuple[1]):
                     output_message.avoid_mult_msg(int(str(keys)), str(self.code_dict[keys]), next_tuple[1])
-                    break   #Found multiplication inside for loop - break out to avoid reading line
+                    continue   #Found multiplication inside for loop - break out to avoid reading line
