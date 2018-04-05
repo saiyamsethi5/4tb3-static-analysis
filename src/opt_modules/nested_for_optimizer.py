@@ -3,8 +3,11 @@
 #Requirements: identifies nested for loops and returns optimized output message
 
 import collections
-from organized_dict import organized_dict
+
 from output_message import output_message
+
+from src.organized_dict import organized_dict
+
 
 class nested_for_optimizer:
     code_dict = organized_dict(collections.OrderedDict())  # ordered dictionary containing line : code

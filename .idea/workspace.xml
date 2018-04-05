@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f04281a9-3043-4828-a61d-2476f1478c30" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/input_code.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py" afterPath="$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opt_modules/if_else_optimizer.py" afterPath="$PROJECT_DIR$/opt_modules/if_else_optimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py" afterPath="$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opt_modules/nested_for_optimizer.py" afterPath="$PROJECT_DIR$/opt_modules/nested_for_optimizer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/organized_dict.py" afterPath="$PROJECT_DIR$/organized_dict.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_message.py" afterPath="$PROJECT_DIR$/output_message.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Count Multiples - Optimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Count Multiples - Unoptimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Data Type - Optimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Data Type - Unoptimizaed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/MultiD Array - Optimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/MultiD Array - Unoptimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Static Local Func - Optimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python Modules/Static Local Func - Unoptimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opt_modules/if_else_optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/opt_modules/nested_for_optimizer.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Presentation/Presentation.pptx" afterPath="$PROJECT_DIR$/presentation/Presentation.pptx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Else Clause - Optimized.py" afterPath="$PROJECT_DIR$/testing_modules/Else Clause - Optimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Else Clause - Unoptimizaed.py" afterPath="$PROJECT_DIR$/testing_modules/Else Clause - Unoptimizaed.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Loop Overhead - Optimized.py" afterPath="$PROJECT_DIR$/testing_modules/Loop Overhead - Optimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Loop Overhead - Unoptimized.py" afterPath="$PROJECT_DIR$/testing_modules/Loop Overhead - Unoptimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Multipliers to Diff - Optimized.py" afterPath="$PROJECT_DIR$/testing_modules/Multipliers to Diff - Optimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Multipliers to Diff - Unoptimized.py" afterPath="$PROJECT_DIR$/testing_modules/Multipliers to Diff - Unoptimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Nested For - Optimized.py" afterPath="$PROJECT_DIR$/testing_modules/Nested For - Optimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Python Modules/Nested For - Unoptimized.py" afterPath="$PROJECT_DIR$/testing_modules/Nested For - Unoptimized.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/filter_input.py" afterPath="$PROJECT_DIR$/src/filter_input.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/input_code.py" afterPath="$PROJECT_DIR$/src/input_code.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/organized_dict.py" afterPath="$PROJECT_DIR$/src/organized_dict.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/output_message.py" afterPath="$PROJECT_DIR$/src/output_message.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/python_scanner.py" afterPath="$PROJECT_DIR$/src/python_scanner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,70 +42,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="python_scanner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_scanner.py">
+        <entry file="file://$PROJECT_DIR$/src/python_scanner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="166">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#144#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input_code.py">
+      <file leaf-file-name="input_code.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/input_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nested_for_optimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opt_modules/nested_for_optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="73" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="if_else_optimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opt_modules/if_else_optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avoid_multiply_optimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loop_overhead_optimizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output_message.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output_message.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -108,13 +81,20 @@
         <option value="$PROJECT_DIR$/Python Modules/input_code.py" />
         <option value="$PROJECT_DIR$/organized_dict.py" />
         <option value="$PROJECT_DIR$/if_test.py" />
-        <option value="$PROJECT_DIR$/python_scanner.py" />
         <option value="$PROJECT_DIR$/opt_modules/nested_for_optimizer.py" />
         <option value="$PROJECT_DIR$/opt_modules/if_else_optimizer.py" />
         <option value="$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py" />
         <option value="$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py" />
-        <option value="$PROJECT_DIR$/input_code.py" />
         <option value="$PROJECT_DIR$/output_message.py" />
+        <option value="$PROJECT_DIR$/input_code.py" />
+        <option value="$PROJECT_DIR$/while_test.py" />
+        <option value="$PROJECT_DIR$/plots/plot_time_nested_for" />
+        <option value="$PROJECT_DIR$/plots/nested_results.txt" />
+        <option value="$PROJECT_DIR$/plots/plot_time_nested_for.gp" />
+        <option value="$PROJECT_DIR$/python_scanner.py" />
+        <option value="$PROJECT_DIR$/presentation/src/python_scanner.py" />
+        <option value="$PROJECT_DIR$/src/python_scanner.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -159,6 +139,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4tb3-static-analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="4tb3-static-analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="opt_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -175,7 +173,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/presentation/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,12 +263,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="4tb3-static-analysis" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_scanner.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python_scanner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,8 +297,8 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.50208336" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -333,7 +333,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/organized_dict.py">
+    <entry file="file://$PROJECT_DIR$/src/organized_dict.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
@@ -341,7 +341,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Modules/Nested For - Optimized.py">
+    <entry file="file://$PROJECT_DIR$/testing_modules/Nested For - Optimized.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -349,7 +349,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Modules/Multipliers to Diff - Unoptimized.py">
+    <entry file="file://$PROJECT_DIR$/testing_modules/Multipliers to Diff - Unoptimized.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -357,7 +357,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Modules/Nested For - Unoptimized.py">
+    <entry file="file://$PROJECT_DIR$/testing_modules/Nested For - Unoptimized.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
@@ -373,39 +373,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_scanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opt_modules/if_else_optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opt_modules/nested_for_optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="73" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opt_modules/avoid_multiply_optimizer.py">
+    <entry file="file://$PROJECT_DIR$/src/output_message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opt_modules/loop_overhead_optimizer.py">
+    <entry file="file://$PROJECT_DIR$/src/opt_modules/loop_overhead_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
@@ -413,18 +389,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input_code.py">
+    <entry file="file://$PROJECT_DIR$/src/opt_modules/avoid_multiply_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="300">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output_message.py">
+    <entry file="file://$PROJECT_DIR$/src/opt_modules/nested_for_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="20" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/while_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/plot_time_nested_for">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/Final-Results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/plot_time_nested_for.gp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plots/nested_results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python_scanner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#144#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/opt_modules/if_else_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>

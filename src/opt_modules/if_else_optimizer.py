@@ -3,8 +3,11 @@
 #Requirements: identifies if else statements and returns optimized output message
 
 import collections
-from organized_dict import organized_dict
+
 from output_message import output_message
+
+from src.organized_dict import organized_dict
+
 
 class if_else_optimizer:
     code_dict = organized_dict(collections.OrderedDict())  #dictionary of line : code

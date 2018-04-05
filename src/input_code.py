@@ -2,7 +2,7 @@
 #test input case for optimizer
 
 #Test Case of Nested For Loop
-def area_increment_calc (height, width):
+def perimeter_increment_calc (height, width):
     for i in range (0, height):
         for j in range (0, width):
             print (i + j)
