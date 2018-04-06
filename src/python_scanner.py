@@ -3,18 +3,20 @@
 #Requirements: scanner requires a file named input_code.py containing the python3 grammer
 
 import collections
-from organized_dict import organized_dict
-from filter_input import filter_input
+
+from opt_modules.avoid_multiply_optimizer import avoid_multiply_optimizer
 from opt_modules.if_else_optimizer import if_else_optimizer
 from opt_modules.nested_for_optimizer import nested_for_optimizer
-from opt_modules.avoid_multiply_optimizer import avoid_multiply_optimizer
+from organized_dict import organized_dict
+
+from filter_input import filter_input
 from opt_modules.loop_overhead_optimizer import loop_overhead_optimizer
+
 
 #function: scanner
 #input: py_input - an ordered dictionary of line numbers and python grammar retreived from input_code.py
 #definition: filter codes and calls optimization modules for checking
 def scanner (py_input):
-
     filter_code = filter_input (py_input)
     filtered_code = filter_code.filter_keywords()   #filters the code for specified keywords
 
