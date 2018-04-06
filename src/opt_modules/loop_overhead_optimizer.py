@@ -6,7 +6,7 @@ import collections
 
 from output_message import output_message
 
-from src.organized_dict import organized_dict
+from organized_dict import organized_dict
 
 
 class loop_overhead_optimizer:
