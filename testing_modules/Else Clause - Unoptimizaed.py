@@ -1,18 +1,30 @@
 
-result = 'null'
+import time
 
-x = 1
-if x < 3:
-    result = 'Case A'
-else:
-    result = 'Case B'
+t0 = time.time()
 
-print ("Result: " + result)
+input = 10000000
+count = 0
 
-x = 4
-if x < 3:
-    result = 'Case A'
-else:
-    result = 'Case B'
+while(count < input):
+    result = 'null'
+
+
+
+    #print ("Result: " + result)
+
+    x = 4
+    if x < 3:
+        result = 'Case A'
+    else:
+        result = 'Case B'
+        
+    #print ("Result: " + result)
+
+
+    count = count + 1
     
-print ("Result: " + result)
+t1 = time.time()
+
+print(t1-t0)
+

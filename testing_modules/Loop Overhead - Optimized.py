@@ -1,19 +1,23 @@
+import time
 
-result = 'null'
+t0 = time.time()
 
-x = 1
+input = 1000000
+counta = 0
+while(counta < input):
 
-result = 'Case B'
-if x < 3:
-    result = 'Case A'
-    result = 'Case A'
+    length = 10
 
-print ("Result: " + result)
+    matrix = [0 for x in range(length)]
 
-x = 4
-result = 'Case B'
-if x < 3:
-    result = 'Case A'
-    result = 'Case A'
-    
-print ("Result: " + result)
+    count = 0
+    while True:
+      matrix[count] = 4
+      if count == length -1:
+        break 
+      count = count + 1
+
+    counta = counta + 1
+t1 = time.time()
+
+print(t1-t0)

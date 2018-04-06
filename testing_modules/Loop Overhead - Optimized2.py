@@ -10,7 +10,7 @@ while(count < input):
 
     matrix = [0 for x in range(length)]
 
-    for i in range(length):
+    for i in range(length -1, -1, -1):
         matrix[i] = 4
 
 
