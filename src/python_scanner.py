@@ -9,8 +9,8 @@ from opt_modules.if_else_optimizer import if_else_optimizer
 from opt_modules.nested_for_optimizer import nested_for_optimizer
 from organized_dict import organized_dict
 
-from src.filter_input import filter_input
-from src.opt_modules.loop_overhead_optimizer import loop_overhead_optimizer
+from filter_input import filter_input
+from opt_modules.loop_overhead_optimizer import loop_overhead_optimizer
 
 
 #function: scanner
