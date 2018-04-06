@@ -1,15 +1,13 @@
 import time
 
-
-height = 10000
-width = 10000
-
 t0 = time.time()
 
-
+height = 100
+width = 100
 for i in range(height):
+    print("Hello")
     for j in range(width):
-        z = i*j	
+        print("Foo")	
 
 
 t1 = time.time()

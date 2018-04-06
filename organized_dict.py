@@ -11,12 +11,9 @@ class organized_dict(collections.OrderedDict):
         #print (items)
 
         for tuples in items:
-            try:
-                if (key == tuples[0]):
-                    indexOf = items.index(tuples)
-                    return (items[indexOf + 1])
-            except IndexError:
-                return ""
+            if (key == tuples[0]):
+                indexOf = items.index(tuples)
+                break;
 
-
+        return (items[indexOf + 1])
 

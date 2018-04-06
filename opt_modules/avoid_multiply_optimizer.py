@@ -3,11 +3,8 @@
 #Requirements: identifies multiplies and returns optimized output message
 
 import collections
-
-from output_message import output_message
-
 from organized_dict import organized_dict
-
+from output_message import output_message
 
 class avoid_multiply_optimizer:
     code_dict = organized_dict(collections.OrderedDict())  # dictionary of line : code
@@ -23,4 +20,4 @@ class avoid_multiply_optimizer:
                 next_tuple = (self.code_dict.next_key(self.code_dict, keys))
                 if ('*' in next_tuple[1]):
                     output_message.avoid_mult_msg(int(str(keys)), str(self.code_dict[keys]), next_tuple[1])
-                    continue   #Found multiplication inside for loop - break out to avoid reading line
+                    break   #Found multiplication inside for loop - break out to avoid reading line

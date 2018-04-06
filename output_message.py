@@ -3,7 +3,6 @@
 #Requirements: class to define the output message for individual optimization
 
 class output_message:
-    #Nested for loop optimization output
     def nested_for_msg (line_num, loop_code, second_loop_code):
         print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print("\tNested for loop can be optimized: ")
@@ -17,22 +16,20 @@ class output_message:
         print ("\tfor i in range (" + loop_lower_range + "," + loop_code_upper_range + " *" + second_loop_code_upper_range + ")")
         print ("\n")
 
-    #If else optimization output
     def if_else_msg (line_num, if_code, else_code):
         print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print ("\tIf-else can be optimized: ")
         print ("\t" + if_code)
-        print ("\t\t\t" + "Case A")
+        print ("\t\t" + "Case A")
         print ("\t" + else_code)
-        print ("\t\t\t" + "Case B")
+        print ("\t\t" + "Case B")
         print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
         print ("\tCase B")
-        print ("" + if_code)
+        print ("\t" + if_code)
         print ("\t\t" + "Undo Case B")
         print ("\t\t" + "Case A")
         print ("\n")
 
-    #Multiplication optimization output
     def avoid_mult_msg (line_num, loop_code, mult_case):
         print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print ("\tMultiplication can be optimized: ")
@@ -43,23 +40,19 @@ class output_message:
         for_loop_mult = loop_code.split(",")[1].split(")")[0]
         main_code_mult = mult_case.split("*")[1].split(")")[0]
         print("\tfor i in range (" + loop_lower_range + "," + for_loop_mult + "*" + main_code_mult + ")")
-        print("" + str(mult_case.split("*")[0]) + ")")
+        print("\t" + str(mult_case.split("*")[0]) + ")")
         print ("\n")
 
-    #Loop overhead optimization output
     def loop_overhead_msg (line_num, loop_code):
         print("\x1b[1;31mLine " + str(line_num) + ": \x1b[0m")
         print ("\tLoop overhead can be optimized: ")
         print ("\t" + loop_code)
-        print("\t\t\tLOOP CODE")
+        print("\t\tLOOP CODE")
 
         loop_lower_range = (loop_code.split("(")[1].split(",")[0])
         loop_code_upper_range = (loop_code.split(",")[1].split(")")[0])
         print ("\n\t\x1b[1;30mConsider the Following:\x1b[0m")
-        try:
-            print ("\ti = " + str(int(loop_code_upper_range)-1))
-        except ValueError:
-            print("\ti = " + str(loop_code_upper_range) + "-1")
+        print ("\ti = " + str(int(loop_code_upper_range)-1))
         print("\tdo{")
         print("\t\tLOOP CODE")
         print("\t\ti = i - 1")

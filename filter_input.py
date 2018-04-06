@@ -1,5 +1,4 @@
 import collections
-
 from organized_dict import organized_dict
 
 # Dictionary of supported symbols and their appropriate outputs
