@@ -13,6 +13,16 @@ A sample code that covers the base cases of each optimization technique can be f
 Run the python_scanner.py code using a python 3 terminal or python 3 IDE.
 This can be achieved by running 'python3 python_scanner.py'
 
+Concept and Limitations:
+The scanner itself is designed to scan the input code and store line by line into a dictionary. For example {'1': line_1_code, '2': line_2_code...}
+The scanner then filters this dictionary for key words (if, for, else, etc.) and removes any code that would not be required for the optimizer.
+Using the filtered dictionary, each optimization module is called to see if there is a technique that can be applied.
+
+The program is not perfect but works for many scenarios. The limitations that can be applied are:
+- for loops: Python has a diffrent way of using for loops - so we decided to only analyze for loops that utilize 'range' - such as: for x in range (0, 10)
+- 2 individual for loops may be thought of as nested: Because the scanner discards of any unecessary code, it is difficult to keep track of where the foor loop starts and ends.
+This is why 2 conesecutive for loops may be thought of as nested.
+
 Additional Information:
 
 python_scanner.py:
